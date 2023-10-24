@@ -1,8 +1,8 @@
 {
-    "name": "GameCraftGuild.PackageTemplate.Editor",
-    "rootNamespace": "GameCraftGuild.PackageTemplate.Editor",
+    "name": "GameCraftGuild.WaveFunctionCollapse.Editor",
+    "rootNamespace": "GameCraftGuild.WaveFunctionCollapse.Editor",
     "references": [
-        "GameCraftGuild.PackageTemplate"
+        "GameCraftGuild.WaveFunctionCollapse"
     ],
     "includePlatforms": [
         "Editor"

@@ -5,7 +5,7 @@
 //
 // For embedded packages you don’t need to explicitly enable tests because embedded packages are in development.
 // However, for other types of dependencies, you need to add the `testables` attribute to the Project `manifest.json`
-// "testables" : ["com.gamecraftguild.package-template"]
+// "testables" : ["com.gamecraftguild.wave-function-collapse"]
 // -----------------------------------------------------------------------------
 
 using System.Collections;
@@ -13,7 +13,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace GameCraftGuild.PackageTemplate.Tests
+namespace GameCraftGuild.WaveFunctionCollapse.Tests
 {
     class RuntimeExampleTest
     {

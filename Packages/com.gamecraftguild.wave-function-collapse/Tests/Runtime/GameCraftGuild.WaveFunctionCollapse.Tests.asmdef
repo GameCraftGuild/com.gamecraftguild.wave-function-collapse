@@ -1,9 +1,9 @@
 {
-    "name": "GameCraftGuild.PackageTemplate.Tests",
-    "rootNamespace": "GameCraftGuild.PackageTemplate.Tests",
+    "name": "GameCraftGuild.WaveFunctionCollapse.Tests",
+    "rootNamespace": "GameCraftGuild.WaveFunctionCollapse.Tests",
     "references": [
         "UnityEngine.TestRunner",
-        "GameCraftGuild.PackageTemplate"
+        "GameCraftGuild.WaveFunctionCollapse"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,5 +1,6 @@
 {
-    "name": "GameCraftGuild.PackageTemplate.Samples",
+    "name": "GameCraftGuild.WaveFunctionCollapse",
+    "rootNamespace": "GameCraftGuild.WaveFunctionCollapse",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

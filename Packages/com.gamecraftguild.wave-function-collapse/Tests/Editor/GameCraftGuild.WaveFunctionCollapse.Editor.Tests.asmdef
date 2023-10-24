@@ -1,11 +1,11 @@
 {
-    "name": "GameCraftGuild.PackageTemplate.Editor.Tests",
-    "rootNamespace": "GameCraftGuild.PackageTemplate.Editor.Tests",
+    "name": "GameCraftGuild.WaveFunctionCollapse.Editor.Tests",
+    "rootNamespace": "GameCraftGuild.WaveFunctionCollapse.Editor.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "GameCraftGuild.PackageTemplate",
-        "GameCraftGuild.PackageTemplate.Editor"
+        "GameCraftGuild.WaveFunctionCollapse",
+        "GameCraftGuild.WaveFunctionCollapse.Editor"
     ],
     "includePlatforms": [
         "Editor"

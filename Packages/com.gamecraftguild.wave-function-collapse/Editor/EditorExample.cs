@@ -2,7 +2,7 @@
 // Editor C# Script Sample
 // -----------------------------------------------------------------------------
 
-namespace GameCraftGuild.PackageTemplate.Editor
+namespace GameCraftGuild.WaveFunctionCollapse.Editor
 {
 	/// <summary>
 	/// Make sure you have documentation for ALL public Package APIs.

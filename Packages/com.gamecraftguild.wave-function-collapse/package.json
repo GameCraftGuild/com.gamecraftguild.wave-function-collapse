@@ -1,5 +1,5 @@
 {
-  "name": "com.gamecraftguild.package-template",
+  "name": "com.gamecraftguild.wave-function-collapse",
   "version": "0.0.1-preview",
   "displayName": "GameCraftGuild - Package Template",
   "description": "a description of package",
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/GameCraftGuild",
   "bugs": {
-    "url": "https://github.com/GameCraftGuild/com.gamecraftguild.package-template/issues",
+    "url": "https://github.com/GameCraftGuild/com.gamecraftguild.wave-function-collapse/issues",
     "email": "gamecraftguild@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:GameCraftGuild/com.gamecraftguild.package-template.git"
+    "url": "ssh://git@github.com:GameCraftGuild/com.gamecraftguild.wave-function-collapse.git"
   }
 }

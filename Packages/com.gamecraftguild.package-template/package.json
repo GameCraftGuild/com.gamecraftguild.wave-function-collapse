@@ -1,0 +1,29 @@
+{
+  "name": "com.gamecraftguild.package-template",
+  "version": "0.0.1-preview",
+  "displayName": "GameCraftGuild - Package Template",
+  "description": "a description of package",
+  "unity": "2022.2",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "license": "See LICENSE.md file",
+  "licensesUrl": "",
+  "keywords": [
+    "gamecraft",
+    "gamecraftguild"
+  ],
+  "author": {
+    "name": "GameCraft Guild",
+    "email": "gamecraftguild@gmail.com",
+    "url": "https://github.com/GameCraftGuild"
+  },
+  "homepage": "https://github.com/GameCraftGuild",
+  "bugs": {
+    "url": "https://github.com/GameCraftGuild/com.gamecraftguild.package-template/issues",
+    "email": "gamecraftguild@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:GameCraftGuild/com.gamecraftguild.package-template.git"
+  }
+}

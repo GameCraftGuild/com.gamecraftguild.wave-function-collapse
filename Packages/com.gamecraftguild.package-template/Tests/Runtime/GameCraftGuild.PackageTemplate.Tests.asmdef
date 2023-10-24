@@ -1,0 +1,21 @@
+{
+    "name": "GameCraftGuild.PackageTemplate.Tests",
+    "rootNamespace": "GameCraftGuild.PackageTemplate.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "GameCraftGuild.PackageTemplate"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

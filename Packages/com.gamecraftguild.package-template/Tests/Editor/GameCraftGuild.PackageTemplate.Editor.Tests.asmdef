@@ -1,0 +1,25 @@
+{
+    "name": "GameCraftGuild.PackageTemplate.Editor.Tests",
+    "rootNamespace": "GameCraftGuild.PackageTemplate.Editor.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "GameCraftGuild.PackageTemplate",
+        "GameCraftGuild.PackageTemplate.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

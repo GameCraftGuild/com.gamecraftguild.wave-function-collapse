@@ -1,0 +1,65 @@
+#!/bin/bash
+
+
+# if less than two arguments show usage
+if [    $# -le 1 ]; then
+    echo -e "\nUsage: $0 <new-package-name> <new-package-namespace>"
+    echo -e "\nExample: $0 com.mycompany.awesome-package MyCompany.AwesomePackage\n"
+    exit 1
+fi
+
+SEDOPTION="-i"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  SEDOPTION="-i ''"
+fi
+
+OLDPACKAGENAME="com.gamecraftguild.package-template"
+OLDNAMESPACE="GameCraftGuild.PackageTemplate"
+
+OLDPACKAGESCOPE=$(echo "$OLDPACKAGENAME" | sed 's/\.[^\.]*$//')
+NEWPACKAGESCOPE=$(echo "$1" | sed 's/\.[^\.]*$//')
+
+#remove potentially existing unity project files
+rm -rf ./Library
+rm -rf ./Logs
+rm -rf ./obj
+rm -rf ./ProjectSettings
+rm -rf ./Temp
+rm -rf ./UserSettings
+rm -rf ./*.csproj
+rm -rf ./*.sln
+rm -rf ./**/*.meta
+
+#package name
+LC_ALL=C find ./Packages -type f -name '*.json' -exec sed $SEDOPTION "s/$OLDPACKAGENAME/$1/g" {} +
+LC_ALL=C find ./Packages -type f -name '*.cs' -exec sed $SEDOPTION "s/$OLDPACKAGENAME/$1/g" {} +
+LC_ALL=C find ./Packages -type f -name '*.md' -exec sed $SEDOPTION "s/$OLDPACKAGENAME/$1/g" {} +
+
+#package scope
+LC_ALL=C find ./Packages -type f -name '*.md' -exec sed $SEDOPTION "s/$OLDPACKAGESCOPE/$NEWPACKAGESCOPE/g" {} +
+
+#namespace
+LC_ALL=C find ./Packages -type f -name '*.cs' -exec sed $SEDOPTION "s/$OLDNAMESPACE/$2/g" {} +
+LC_ALL=C find ./Packages -type f -name '*.asmdef' -exec sed $SEDOPTION "s/$OLDNAMESPACE/$2/g" {} +
+
+#rename files via namespace
+find ./Packages -type f -name "$OLDNAMESPACE*" | while read FILE ; do
+	regexp="s/$OLDNAMESPACE/$2/";
+    newfile="$(echo ${FILE} | sed -e ${regexp})";
+    mv "${FILE}" "${newfile}";
+done 
+
+mv "./Packages/$OLDPACKAGENAME" "./Packages/${1}";
+
+#rename files via package name
+find ./Packages -type f -name "$OLDPACKAGENAME*" | while read FILE ; do
+	regexp="s/$OLDPACKAGENAME/$1/";
+    newfile="$(echo ${FILE} | sed -e ${regexp})";
+    mv "${FILE}" "${newfile}";
+done 
+
+echo "package scope: $NEWPACKAGESCOPE"
+echo "package name: $1"
+echo "package namespace: $2"
+echo "!! init script should be removed after package setup !!"
+echo "!! remember to DELETE temporary ignored files from the .gitignore !!"

@@ -1,0 +1,20 @@
+{
+	"Name": "Bridge",
+	"Tags": [
+		"Land",
+		"River",
+		"Road"
+	],
+	"Connections": [
+		"Road",
+		"River",
+		"Land",
+		"Road",
+		"River",
+		"Land"
+	],
+	"Probability": 1,
+	"ProbabilityModifiers": {
+		
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Name": "RiverTurn",
+	"Tags": [
+		"Land",
+		"River"
+	],
+	"Connections": [
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"RiverSide"
+	],
+	"Probability": 5,
+	"ProbabilityModifiers": {
+		
+	}
+}

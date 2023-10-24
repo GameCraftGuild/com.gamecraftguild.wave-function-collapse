@@ -1,0 +1,19 @@
+{
+	"Name": "RoadSplit",
+	"Tags": [
+		"Land",
+		"Road"
+	],
+	"Connections": [
+		"RoadSide",
+		"Road",
+		"RoadSide",
+		"Road",
+		"RoadSide",
+		"Road"
+	],
+	"Probability": 1,
+	"ProbabilityModifiers": {
+		
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Name": "RiverStart",
+	"Tags": [
+		"Land",
+		"River"
+	],
+	"Connections": [
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"RiverSide",
+		"RiverSide",
+		"RiverSide"
+	],
+	"Probability": 1,
+	"ProbabilityModifiers": {
+		
+	}
+}

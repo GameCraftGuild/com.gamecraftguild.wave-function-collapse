@@ -1,0 +1,19 @@
+{
+	"Name": "RiverSplit",
+	"Tags": [
+		"Land",
+		"River"
+	],
+	"Connections": [
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"River"
+	],
+	"Probability": 1,
+	"ProbabilityModifiers": {
+		
+	}
+}

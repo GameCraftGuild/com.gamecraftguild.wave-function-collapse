@@ -1,0 +1,23 @@
+{
+	"Connections": {
+		"Land": [
+			"Land",
+			"RiverSide",
+			"RoadSide"
+		],
+		"RiverSide": [
+			"Land",
+			"RoadSide"
+		],
+		"River": [
+			"River"
+		],
+		"Road": [
+			"Road"
+		],
+		"RoadSide":[
+			"Land",
+			"RiverSide"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"Name": "RiverStraight",
+	"Tags": [
+		"Land",
+		"River"
+	],
+	"Connections": [
+		"RiverSide",
+		"River",
+		"RiverSide",
+		"RiverSide",
+		"River",
+		"RiverSide"
+	],
+	"Probability": 5,
+	"ProbabilityModifiers": {
+		
+	}
+}

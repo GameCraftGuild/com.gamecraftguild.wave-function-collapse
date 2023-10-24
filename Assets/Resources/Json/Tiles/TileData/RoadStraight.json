@@ -1,0 +1,19 @@
+{
+	"Name": "RoadStraight",
+	"Tags": [
+		"Land",
+		"Road"
+	],
+	"Connections": [
+		"RoadSide",
+		"Road",
+		"RoadSide",
+		"RoadSide",
+		"Road",
+		"RoadSide"
+	],
+	"Probability": 5,
+	"ProbabilityModifiers": {
+		
+	}
+}

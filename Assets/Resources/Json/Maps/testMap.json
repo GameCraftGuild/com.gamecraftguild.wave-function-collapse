@@ -1,0 +1,8 @@
+{
+	"TileListName": "tileList",
+	"TileConnectionsName": "tileConnections",
+	"PresetTilesName": "presetTiles",
+	"PrimarySize": 30,
+	"SecondarySize": 0,
+	"MapShape": "Ring"
+}

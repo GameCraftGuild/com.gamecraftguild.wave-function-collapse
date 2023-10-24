@@ -1,0 +1,16 @@
+{
+	"names": [
+		"Grass",
+		"Forest",
+		"RiverStart",
+		"RiverStraight",
+		"RiverTurn",
+		"RiverSplit",
+		"RoadStart",
+		"RoadStraight",
+		"RoadTurn",
+		"RoadSplit",
+		"Bridge",
+		"ForestRocks"
+	]
+}

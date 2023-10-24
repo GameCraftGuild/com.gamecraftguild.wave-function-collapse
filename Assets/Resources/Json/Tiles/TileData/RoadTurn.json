@@ -1,0 +1,19 @@
+{
+	"Name": "RoadTurn",
+	"Tags": [
+		"Land",
+		"Road"
+	],
+	"Connections": [
+		"RoadSide",
+		"Road",
+		"RoadSide",
+		"Road",
+		"RoadSide",
+		"RoadSide"
+	],
+	"Probability": 5,
+	"ProbabilityModifiers": {
+		
+	}
+}

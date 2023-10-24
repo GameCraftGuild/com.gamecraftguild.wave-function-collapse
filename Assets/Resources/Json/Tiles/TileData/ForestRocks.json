@@ -1,0 +1,19 @@
+{
+	"Name": "ForestRocks",
+	"Tags": [
+		"Land",
+		"Rocks"
+	],
+	"Connections": [
+		"Land",
+		"Land",
+		"Land",
+		"Land",
+		"Land",
+		"Land"
+	],
+	"Probability": 30,
+	"ProbabilityModifiers": {
+		"ForestRocks": -45
+	}
+}

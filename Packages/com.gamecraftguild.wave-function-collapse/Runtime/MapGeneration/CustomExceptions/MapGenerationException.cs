@@ -1,16 +1,19 @@
 using System;
 using System.Runtime.Serialization;
 
-[Serializable]
-public class MapGenerationException : Exception
-{
+namespace GameCraftGuild.WaveFunctionCollapse {
 
-    public MapGenerationException() { }
+    [Serializable]
+    public class MapGenerationException : Exception {
 
-    public MapGenerationException(string message) : base(message) { }
+        public MapGenerationException() { }
 
-    public MapGenerationException(string message, Exception innerException) : base(message, innerException) { }
+        public MapGenerationException(string message) : base(message) { }
 
-    protected MapGenerationException(SerializationInfo info, StreamingContext context) : base(info, context) { } 
+        public MapGenerationException(string message, Exception innerException) : base(message, innerException) { }
+
+        protected MapGenerationException(SerializationInfo info, StreamingContext context) : base(info, context) { }
+
+    }
 
 }

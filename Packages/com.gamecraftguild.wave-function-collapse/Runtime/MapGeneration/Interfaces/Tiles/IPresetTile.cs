@@ -1,11 +1,14 @@
 using System.Numerics;
 
-public interface IPresetTile : ITile
-{
+namespace GameCraftGuild.WaveFunctionCollapse {
 
-    /// <summary>
-    /// Coordinate for this preset tile.
-    /// </summary>
-    public Vector3 Coordinate { get; }
+    public interface IPresetTile : ITile {
+
+        /// <summary>
+        /// Coordinate for this preset tile.
+        /// </summary>
+        public Vector3 Coordinate { get; }
+
+    }
 
 }
